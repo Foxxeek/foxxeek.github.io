@@ -1,5 +1,5 @@
 body{
-    background-color:black
+    background-color:black;
 }
 .contributors{
     color:aquamarine;
@@ -23,7 +23,12 @@ h1{
 a.contrib-link:hover{color:magenta}
 .main-title{
     font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    text-decoration: none;
+    color:lightseagreen
 }
 .whatisit{
     color:darkturquoise;
+}
+#diki{
+    color:white;
 }
