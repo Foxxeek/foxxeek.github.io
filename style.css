@@ -1,4 +1,4 @@
-*{
+body{
     background-color:black
 }
 .contributors{
@@ -15,4 +15,11 @@ h1{
 }
 .contrib{
     color:white;
+}
+.contrib-link{
+    text-decoration: none;
+}
+a.contrib-link:hover{color:magenta};
+.main-title{
+    font-family: 'Comic Sans MS', 'Comic Sans', sans-serif;
 }
