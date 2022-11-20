@@ -18,6 +18,7 @@ h1{
 }
 .contrib-link{
     text-decoration: none;
+    color:aqua;
 }
 a.contrib-link:hover{color:magenta};
 .main-title{
