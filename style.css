@@ -1,45 +1,91 @@
+/*Fonty*/
+@font-face {
+    font-family: PixeloidSans;
+    src: url(fonts/PixeloidSans.woff);
+  }
+  @font-face {
+    font-family: PixeloidSansBold;
+    src: url(fonts/PixeloidSansBold.woff);
+  }
+  @font-face {
+    font-family: PixelEmulator;
+    src: url(fonts/PixelEmulator.woff);
+  }
+/*Classy a IDčka*/
+html{
+    background:black;
+}
 body{
-    background-color:black;
+    margin: 0 auto;
+    width: 960px;
+    text-align: center;
 }
 .contributors{
     color:aquamarine;
+    font-family:PixeloidSansBold;
+    font-weight:bold;
+    margin: 0 auto;
 }
-#contrib-info{
-    color:chocolate;
-}
-h1{
-    color:lightseagreen;
+.contrib-info{
+    color:rgb(43, 178, 135);
+    font-family:PixelEmulator;
+    font-weight: bold;
+    margin-bottom: 20px;
+    }
+
+.seznam{
+    list-style-type:none;
+    padding: 0;
 }
 .basic-info{
-    color:honeydew
+    color:honeydew;
+    width:450px;
+    margin: 0 auto;
+    overflow-y:hidden;
+    overflow-x:hidden;
+    font-family:PixeloidSans;
+    font-size: 1.2em;
 }
 .contrib{
-    color:white;
+    color:rgb(92, 82, 230);
+    font-family:PixeloidSansBold;
 }
 .contrib-link{
     text-decoration: none;
     color:aqua;
+    border:1px solid rgb(18, 18, 18);
+    font-family:PixeloidSansBold;
+    font-weight:bold;
+    font-size: 1.5em;
 }
-a.contrib-link:hover{color:magenta}
+a.contrib-link:hover{color:#246e96}
 a.promo-link:hover{color:red}
 .main-title{
-    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    font-family: pixelemulator;
     text-decoration: none;
-    color:lightseagreen
+    color:#57a8eb;
+    font-size: 1.5em
 }
 .whatisit{
-    color:darkturquoise;
+    color:rgb(14, 212, 252);
+    border: 2px ridge rgb(39, 39, 39);
+    font-family: PixeloidSansBold;
 }
 #diki{
     color:white;
 }
 .promo-link{
     text-decoration: none;
+    border:1px solid rgb(18, 18, 18);
     color:darkred;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:PixeloidSansBold;
+    font-size: 0.85em;
 }
 .promo-text{
     color:darkred;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 3em;
+    font-family:PixeloidSansBold;
+    font-size: 2em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px ridge rgb(39, 39, 39)
 }
