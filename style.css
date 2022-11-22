@@ -24,7 +24,9 @@ body{
     color:aquamarine;
     font-family:PixeloidSansBold;
     font-weight:bold;
+    width: 400px;
     margin: 0 auto;
+    border: 1px ridge rgba(46, 70, 165, 0.415);
 }
 .contrib-info{
     color:rgb(43, 178, 135);
@@ -46,25 +48,51 @@ body{
     font-family:PixeloidSans;
     font-size: 1.2em;
 }
+#satisfaction{
+    color:honeydew;
+    margin: 0 auto;
+    font-family:PixeloidSansBold;
+    font-size: 1.2em;
+    margin: 450px 1px 1px 0px;
+}
+.eastrek{
+    font-family: pixelemulator;
+    color:#57a8eb;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+a.eastrek:hover{color:red}
 .contrib{
     color:rgb(92, 82, 230);
     font-family:PixeloidSansBold;
 }
 .contrib-link{
-    text-decoration: none;
+    text-decoration: underline;
     color:aqua;
     border:1px solid rgb(18, 18, 18);
     font-family:PixeloidSansBold;
     font-weight:bold;
     font-size: 1.5em;
 }
-a.contrib-link:hover{color:#246e96}
-a.promo-link:hover{color:red}
+a.contrib-link:hover{
+    color:#246e96;
+}
+a.promo-link:hover{
+    color:red;
+}
+a.main-title:hover{
+    color:#69a9da;
+}
 .main-title{
     font-family: pixelemulator;
-    text-decoration: none;
+    text-decoration: underline;
     color:#57a8eb;
-    font-size: 1.5em
+    font-size: 1.5em;
+}
+.estrek{
+    color:black;
+    text-decoration: none;
+    font-size:2em;
 }
 .whatisit{
     color:rgb(14, 212, 252);
@@ -72,7 +100,12 @@ a.promo-link:hover{color:red}
     font-family: PixeloidSansBold;
 }
 #diki{
-    color:white;
+    color:rgb(43, 178, 135);
+    font-family:PixelEmulator;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 2em;
+    text-decoration:underline;
 }
 .promo-link{
     text-decoration: none;
@@ -80,6 +113,7 @@ a.promo-link:hover{color:red}
     color:darkred;
     font-family:PixeloidSansBold;
     font-size: 0.85em;
+    margin:5px 3px 5px 3px;
 }
 .promo-text{
     color:darkred;
