@@ -13,7 +13,7 @@
   }
 /*Classy a IDčka*/
 html{
-    background:black;
+    background:rgb(26, 27, 29);
 }
 body{
     margin: 0 auto;
@@ -83,6 +83,12 @@ a.promo-link:hover{
 a.main-title:hover{
     color:#69a9da;
 }
+a.web.title:hover{
+    color: rgb(207, 55, 16);
+}
+a.blazing-title:hover{
+    color:limegreen;
+}
 .main-title{
     font-family: pixelemulator;
     text-decoration: underline;
@@ -90,7 +96,7 @@ a.main-title:hover{
     font-size: 1.5em;
 }
 .estrek{
-    color:black;
+    color:#1A1B1D;
     text-decoration: none;
     font-size:2em;
 }
@@ -122,4 +128,60 @@ a.main-title:hover{
     margin-top: 5px;
     margin-bottom: 5px;
     border: 2px ridge rgb(39, 39, 39)
+}
+.web-title{
+    color:rgb(207, 55, 16);
+    font-family: PixelEmulator;
+    font-size: 3em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-decoration:underline
+}
+.frozhor{
+    border: none;
+    backgroud-color: #1A1B1D;
+    color: #1a1b1d;
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    appearance: none;
+    cursor: pointer;
+    scale: 150%;
+    position: absolute;
+    left: 150px;
+    bottom: 100px;
+}
+.blazingfast{
+    border: none;
+    backgroud-color: #1A1B1D;
+    color: #1a1b1d;
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    appearance: none;
+    cursor: pointer;
+    scale: 150%;
+    position: absolute;
+    left: 800px;
+    bottom: 100px;
+}
+.blazing-title{
+    font-family: PixelEmulator;
+    font-size: 3em;
+    text-decoration: underline;
+    color:limegreen;
+}
+.description-title{
+    font-family: PixeloidSansBold;
+    color: rgb(42, 129, 42);
+    font-size: 1.5em;
+    border: 3px solid rgb(36, 36, 36);
+}
+a.description:hover{
+    color:rgb(60, 211, 98)
+}
+a.description{
+    border: 1px solid rgb(38, 192, 97)
+}
+.description{
+    font-family: PixeloidSans;
+    color: rgb(60, 211, 98);
 }
