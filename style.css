@@ -99,6 +99,7 @@ a.blazing-title:hover{
     color:#1A1B1D;
     text-decoration: none;
     font-size:2em;
+    visibility: hidden;
 }
 .whatisit{
     color:rgb(14, 212, 252);
