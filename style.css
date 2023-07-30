@@ -12,14 +12,110 @@
     src: url(fonts/PixelEmulator.woff);
   }
 /*Classy a IDčka*/
-html{
-    background:rgb(26, 27, 29);
-}
-body{
-    margin: 0 auto;
-    width: 960px;
+html, body{
+    background:rgb(27, 19, 27);
     text-align: center;
+    -webkit-font-smoothing: antialiased;
 }
+
+main{
+    margin-left: auto;
+    margin-right: auto;
+}
+aside{
+    width: 20%;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: right;
+}
+main.index{
+    color:cornflowerblue;
+}
+
+/* Index page */
+.navbar ul{
+    display: block;
+    list-style: none;
+}
+.navbar li{
+    display: inline;
+    align-items: stretch;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    font-family: PixelEmulator;
+    color:aquamarine;
+    font-size: 1.5em;
+    border: dotted;
+    border-color: blueviolet;
+    background-color: rgb(29, 24, 39);
+    min-height: 40px;
+    height: 80px;
+}
+.navbar a:hover{
+    color: rgb(75, 199, 182) ;
+}
+.intro{
+    font-family: PixeloidSans;
+    font-size: 1.2em;
+    width: 80%;
+}
+.testaside{
+    font-family: PixeloidSansBold;
+    font-size: 1.2em;
+}
+.juan{
+    font-family: PixeloidSans;
+    font-size: 1.3em;
+    color:aqua;
+}
+
+/* Blog */
+
+.blog{
+    font-family: PixeloidSans;
+    color: rgb(107, 219, 182);
+    font-size: 1.2em;
+    width: 80%
+}
+.blog-aside{
+    font-family: PixeloidSans;
+    color: rgb(107, 219, 182);
+    font-size: 1.2em;
+    width: 30%;
+}
+.blogposts{
+    color:rgb(67, 233, 255);
+    width: 70%;
+    padding-left: 15%;
+}
+.blogposts a:hover{
+    color:rgb(25, 174, 194); 
+}
+
+/* Socials */
+.socials{
+    font-family: PixelEmulator;
+    color: rgb(107, 219, 182);
+    font-size: 1em;
+    text-decoration: none;
+}
+.socials a{
+    font-size: 1.3em;
+}
+.socials ul{
+    list-style-type: none;
+}
+.socials a,.socials a:visited{
+    color: rgb(107, 219, 182);
+}
+.socials a:hover{
+    color:rgb(25, 174, 194); 
+}
+
+
 .contributors{
     color:aquamarine;
     font-family:PixeloidSansBold;
@@ -39,10 +135,11 @@ body{
     list-style-type:none;
     padding: 0;
 }
-.basic-info{
+.frhr-info{
     color:honeydew;
     width:450px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     overflow-y:hidden;
     overflow-x:hidden;
     font-family:PixeloidSans;
@@ -66,24 +163,24 @@ a.eastrek:hover{color:red}
     color:rgb(92, 82, 230);
     font-family:PixeloidSansBold;
 }
-.contrib-link{
+#con{
     text-decoration: underline;
     color:aqua;
     border:1px solid rgb(18, 18, 18);
     font-family:PixeloidSansBold;
     font-weight:bold;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
-a.contrib-link:hover{
+a#con:hover{
     color:#246e96;
 }
-a.promo-link:hover{
+a.promo:hover{
     color:rgb(255, 0, 0);
 }
 a.main-title:hover{
     color:#69a9da;
 }
-a.web.title:hover{
+a.web-title:hover{
     color: rgb(207, 55, 16);
 }
 a.blazing-title:hover{
@@ -94,6 +191,9 @@ a.blazing-title:hover{
     text-decoration: underline;
     color:#57a8eb;
     font-size: 1.5em;
+}
+a:visited{
+    color: inherit;
 }
 .estrek{
     color:#1A1B1D;
@@ -114,15 +214,14 @@ a.blazing-title:hover{
     font-size: 2em;
     text-decoration:underline;
 }
-.promo-link{
+.promo{
     text-decoration: none;
     border:1px solid rgb(18, 18, 18);
     color:darkred;
     font-family:PixeloidSansBold;
     font-size: 0.85em;
-    margin:5px 3px 5px 3px;
 }
-.promo-text{
+.promo .text{
     color:darkred;
     font-family:PixeloidSansBold;
     font-size: 2em;
@@ -138,43 +237,36 @@ a.blazing-title:hover{
     margin-bottom: 5px;
     text-decoration:underline
 }
-.frozhor{
+.selection{
+    display:block;
     border: none;
     background-color: #1A1B1D;
     color: #1a1b1d;
     padding: 0px 0px 0px 0px;
-    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
     appearance: none;
     cursor: pointer;
+    position: center;
     scale: 150%;
-    position: absolute;
-    left: 150px;
-    bottom: 100px;
 }
-.blazingfast{
-    border: none;
-    background-color: #1A1B1D;
-    color: #1a1b1d;
-    padding: 0px 0px 0px 0px;
-    margin: 0px;
-    appearance: none;
-    cursor: pointer;
-    scale: 150%;
-    position: absolute;
-    left: 800px;
-    bottom: 100px;
-}
+
 .blazing-title{
     font-family: PixelEmulator;
     font-size: 3em;
     text-decoration: underline;
     color:limegreen;
 }
-.description-title{
+.description .title{
     font-family: PixeloidSansBold;
     color: rgb(42, 129, 42);
     font-size: 1.5em;
     border: 3px solid rgb(36, 36, 36);
+}
+.description{
+    font-family: PixeloidSans;
+    color: rgb(60, 211, 98);
 }
 a.description:hover{
     color:rgb(60, 211, 98)
@@ -182,18 +274,18 @@ a.description:hover{
 a.description{
     border: 1px solid rgb(38, 192, 97)
 }
-.description{
-    font-family: PixeloidSans;
-    color: rgb(60, 211, 98);
-}
-img{
+img.gameicon{
     -webkit-filter: brightness(100%);
 }
-img:hover{
+img:hover.gameicon{
     -webkit-filter: brightness(70%);
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
     transition: all 0.5s ease;
+}
+
+a:visited{
+    color: inherit;
 }
