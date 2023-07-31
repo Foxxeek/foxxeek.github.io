@@ -91,6 +91,9 @@ main.index{
     width: 70%;
     padding-left: 15%;
 }
+.blogposts a:visited{
+    color:rgb(67, 233, 255);
+}
 .blogposts a:hover{
     color:rgb(25, 174, 194); 
 }
@@ -122,6 +125,8 @@ main.index{
     font-weight:bold;
     width: 400px;
     margin: 0 auto;
+}
+.contributors h3{
     border: 1px ridge rgba(46, 70, 165, 0.415);
 }
 .contrib-info{
@@ -129,11 +134,16 @@ main.index{
     font-family:PixelEmulator;
     font-weight: bold;
     margin-bottom: 20px;
-    }
+}
+.contributors li{
+    color:rgb(92, 82, 230);
+    font-family:PixeloidSansBold;
+}
 
-.seznam{
+.contributors ul{
     list-style-type:none;
     padding: 0;
+    
 }
 .frhr-info{
     color:honeydew;
@@ -159,10 +169,6 @@ main.index{
     text-decoration: none;
 }
 a.eastrek:hover{color:red}
-.contrib{
-    color:rgb(92, 82, 230);
-    font-family:PixeloidSansBold;
-}
 #con{
     text-decoration: underline;
     color:aqua;
@@ -206,13 +212,16 @@ a:visited{
     border: 2px ridge rgb(39, 39, 39);
     font-family: PixeloidSansBold;
 }
-#diki{
+.diki{
     color:rgb(43, 178, 135);
     font-family:PixelEmulator;
     font-weight: bold;
     margin-bottom: 20px;
-    font-size: 2em;
+    font-size: 1.2em;
     text-decoration:underline;
+}
+.diki h2{
+    font-size: 2em;
 }
 .promo{
     text-decoration: none;
